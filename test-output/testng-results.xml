@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T15:59:12 IST" name="Default suite" finished-at="2024-07-25T16:00:34 IST" duration-ms="81704">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T15:59:12 IST" name="Default test" finished-at="2024-07-25T16:00:34 IST" duration-ms="81704">
+      <class name="test.TestExecution">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:14 IST" name="startUp" finished-at="2024-07-25T15:59:22 IST" duration-ms="7766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateloginFunction(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:22 IST" name="validateloginFunction" data-provider="SignIn Validation" finished-at="2024-07-25T15:59:25 IST" duration-ms="2974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validating with Valid UserName and Valid Password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:25 IST" name="tearDown" finished-at="2024-07-25T15:59:25 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:25 IST" name="startUp" finished-at="2024-07-25T15:59:30 IST" duration-ms="4455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateloginFunction(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:30 IST" name="validateloginFunction" data-provider="SignIn Validation" finished-at="2024-07-25T15:59:33 IST" duration-ms="3064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validating with Valid UserName and InValid Password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ThisIsNotaPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:33 IST" name="tearDown" finished-at="2024-07-25T15:59:33 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:33 IST" name="startUp" finished-at="2024-07-25T15:59:43 IST" duration-ms="10301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateloginFunction(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:43 IST" name="validateloginFunction" data-provider="SignIn Validation" finished-at="2024-07-25T15:59:45 IST" duration-ms="2130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validating with InValid UserName and Valid Password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JohnDoe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:45 IST" name="tearDown" finished-at="2024-07-25T15:59:46 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:46 IST" name="startUp" finished-at="2024-07-25T15:59:50 IST" duration-ms="4553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateloginFunction(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:50 IST" name="validateloginFunction" data-provider="SignIn Validation" finished-at="2024-07-25T15:59:52 IST" duration-ms="1969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validating with InValid UserName and InValid Password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John Do]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:52 IST" name="tearDown" finished-at="2024-07-25T15:59:53 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T15:59:53 IST" name="startUp" finished-at="2024-07-25T16:00:01 IST" duration-ms="8728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateAppointmentBooking()[pri:2, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:01 IST" name="validateAppointmentBooking" finished-at="2024-07-25T16:00:05 IST" duration-ms="3689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppointmentBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:05 IST" name="tearDown" finished-at="2024-07-25T16:00:05 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:05 IST" name="startUp" finished-at="2024-07-25T16:00:10 IST" duration-ms="4511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateAppointmentBookingInHistoryField()[pri:3, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:10 IST" name="validateAppointmentBookingInHistoryField" finished-at="2024-07-25T16:00:14 IST" duration-ms="3937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppointmentBookingInHistoryField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:14 IST" name="tearDown" finished-at="2024-07-25T16:00:14 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:14 IST" name="startUp" finished-at="2024-07-25T16:00:19 IST" duration-ms="5028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateHistoryFieldWithoutBooking()[pri:4, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:19 IST" name="validateHistoryFieldWithoutBooking" finished-at="2024-07-25T16:00:22 IST" duration-ms="3374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHistoryFieldWithoutBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:22 IST" name="tearDown" finished-at="2024-07-25T16:00:23 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:23 IST" name="startUp" finished-at="2024-07-25T16:00:27 IST" duration-ms="4565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateEndToEnd()[pri:5, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:27 IST" name="validateEndToEnd" finished-at="2024-07-25T16:00:33 IST" duration-ms="6206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEndToEnd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@5d908d47]" started-at="2024-07-25T16:00:33 IST" name="tearDown" finished-at="2024-07-25T16:00:34 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
